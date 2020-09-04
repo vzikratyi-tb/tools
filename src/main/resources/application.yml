@@ -1,0 +1,17 @@
+spring:
+  data:
+    jpa:
+      repositories:
+        enabled: "true"
+  jpa:
+    open-in-view: "false"
+    hibernate:
+      ddl-auto: "none"
+    database-platform: "org.hibernate.dialect.PostgreSQLDialect"
+  datasource:
+    driverClassName: "org.postgresql.Driver"
+    url: "jdbc:postgresql://localhost:5431/thingsboard"
+    username: ""
+    password: ""
+    hikari:
+      maximumPoolSize: "1"

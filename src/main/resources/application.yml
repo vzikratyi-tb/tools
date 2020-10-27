@@ -15,3 +15,8 @@ spring:
     password: ""
     hikari:
       maximumPoolSize: "1"
+
+thingsboard:
+  url: ""
+  username: ""
+  password: ""
